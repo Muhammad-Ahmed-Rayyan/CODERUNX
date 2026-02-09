@@ -24,7 +24,7 @@ export const getProjectFix = async (
   }).join('\n\n---\n\n');
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-pro-preview",
+    model: "gemini-2.5-flash",
     contents: `The following project failed with an execution error. Please analyze the entire project context, find the bug, and provide the corrected files.
     
 ERROR ENCOUNTERED:
