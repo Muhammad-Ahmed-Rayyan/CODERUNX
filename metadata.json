@@ -1,0 +1,5 @@
+{
+  "name": "CoderunX",
+  "description": "Enterprise-grade AI code debugger with multi-file project support, directory imports, and Gemini-powered self-correction loops.",
+  "requestFramePermissions": []
+}
