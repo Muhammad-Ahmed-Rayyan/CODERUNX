@@ -65,6 +65,9 @@ Return a JSON object matching the provided schema.`,
     }
   });
 
+  if (!response.text) {
+    throw new Error("No response from Gemini API");
+  }
   return JSON.parse(response.text.trim());
 };
 
@@ -98,5 +101,8 @@ ${projectContext}`,
     }
   });
 
+  if (!response.text) {
+    throw new Error("No response from Gemini API");
+  }
   return JSON.parse(response.text.trim());
 };
