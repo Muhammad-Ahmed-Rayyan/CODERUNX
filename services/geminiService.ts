@@ -1,8 +1,12 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { ProjectFile, FixSuggestion, ExecutionResult } from "../types";
 
-// Initialize with the standard environment variable provided by the platform
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY || process.env.API_KEY });
+// Initialize with the Vite environment variable
+const apiKey = import.meta.env.VITE_API_KEY;
+if (!apiKey) {
+  console.error("VITE_API_KEY is not defined. Please add it to your environment variables.");
+}
+const ai = new GoogleGenAI({ apiKey: apiKey || "" });
 
 /**
  * Uses Gemini to analyze a project and provide a multi-file fix.
