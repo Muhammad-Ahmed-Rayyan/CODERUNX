@@ -5,7 +5,7 @@ import {
   Folder, FileCode2, Download,
   FolderPlus
 } from 'lucide-react';
-import { ProjectFile } from '../types.ts';
+import { ProjectFile } from '../types';
 
 interface Props {
   files: ProjectFile[];

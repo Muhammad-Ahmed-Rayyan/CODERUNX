@@ -10,15 +10,15 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import JSZip from 'jszip';
-import { AppStatus, SessionState, ConsoleLog, ProjectFile } from './types.ts';
-import CodeEditor from './components/CodeEditor.tsx';
-import ExecutionConsole from './components/ExecutionConsole.tsx';
-import MiniProgress from './components/MiniProgress.tsx';
-import FileTree from './components/FileTree.tsx';
-import LandingPage from './components/LandingPage.tsx';
-import SetupLoader from './components/SetupLoader.tsx';
-import { runInSandbox } from './services/sandbox.ts';
-import { getProjectFix, simulateExecution } from './services/geminiService.ts';
+import { AppStatus, SessionState, ConsoleLog, ProjectFile } from './types';
+import CodeEditor from './components/CodeEditor';
+import ExecutionConsole from './components/ExecutionConsole';
+import MiniProgress from './components/MiniProgress';
+import FileTree from './components/FileTree';
+import LandingPage from './components/LandingPage';
+import SetupLoader from './components/SetupLoader';
+import { runInSandbox } from './services/sandbox';
+import { getProjectFix, simulateExecution } from './services/geminiService';
 
 const INITIAL_FILES: ProjectFile[] = [
   {
