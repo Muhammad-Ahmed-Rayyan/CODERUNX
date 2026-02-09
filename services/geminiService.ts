@@ -82,7 +82,7 @@ export const simulateExecution = async (files: ProjectFile[]): Promise<Execution
   const projectContext = files.map(f => `PATH: ${(f.path || '') + f.name}\nCONTENT:\n${f.content}`).join('\n\n---\n\n');
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-pro-preview",
+    model: "gemini-2.5-flash",
     contents: `Simulate the execution of this multi-file project. 
 Consider all dependencies between files. 
 Describe the output exactly as it would appear in a standard terminal. 
