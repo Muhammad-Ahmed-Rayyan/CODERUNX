@@ -1,8 +1,9 @@
 <div align="center">
-
-# 🚀 CODERUNX
-
-**The Enterprise AI Debugger**
+  <img src="https://github.com/Muhammad-Ahmed-Rayyan/CODERUNX/blob/main/CODERUNX.png" width="500">
+  
+  #
+  
+  <p><b>The Enterprise AI Debugger</b></p>
 
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/CODERUNX)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Primary-blue?logo=typescript)
@@ -108,3 +109,9 @@ API_KEY=your_gemini_pro_api_key
 Get your API key from: [Google AI Studio](https://aistudio.google.com/)
 
 ---
+
+<div align="center">
+
+⭐ Give this project a star to show your support!
+
+</div>
