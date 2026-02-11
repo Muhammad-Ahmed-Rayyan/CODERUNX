@@ -108,28 +108,3 @@ API_KEY=your_gemini_pro_api_key
 Get your API key from: [Google AI Studio](https://aistudio.google.com/)
 
 ---
-
-## 📖 Workflow Guide
-
-1. Initialize Workspace  
-2. Define Environment Context  
-3. Click Analyze & Fix  
-4. Monitor AI Repair Cycle  
-5. Review Highlighted Changes  
-6. Export Stabilized Project  
-
----
-
-## 🔮 Roadmap
-
-- GitHub Integration  
-- Real-time Collaboration  
-- Rust & Go Native Runtime Support  
-
----
-
-<div align="center">
-
-⭐ If you like this project, don’t forget to star it!
-
-</div>
