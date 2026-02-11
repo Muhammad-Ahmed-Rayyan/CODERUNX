@@ -6,21 +6,20 @@
   <p><b>The Enterprise AI Debugger</b></p>
 
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/CODERUNX)
-![TypeScript](https://img.shields.io/badge/TypeScript-Primary-blue?logo=typescript)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-96.9%25-blue?logo=typescript)
 ![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/CODERUNX)
 
 <br>
 
 Built with the tools and technologies:
 
-![React](https://img.shields.io/badge/React-19-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Gemini 3 Pro](https://img.shields.io/badge/Gemini-3%20Pro-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
+![Gemini 3 Pro](https://img.shields.io/badge/Gemini%203%20Pro-white.svg?style=for-the-badge&logo=google-gemini&logoColor=4285F4)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![PrismJS](https://img.shields.io/badge/PrismJS-%23000000.svg?style=for-the-badge&logo=prism&logoColor=white)
-![Lucide](https://img.shields.io/badge/Lucide-React-%23000000.svg?style=for-the-badge&logo=lucide&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Deployment-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-2F2F2F.svg?style=for-the-badge&logo=lucide&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
@@ -90,9 +89,14 @@ Includes a live terminal console with structured AI diagnostic tagging.
 ## 🚀 Setup & Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/Muhammad-Ahmed-Rayyan/CODERUNX.git
 cd CODERUNX
+
+# Install dependencies
 npm install
+
+# Run the development server
 npm run dev
 ```
 
