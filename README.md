@@ -1,96 +1,136 @@
+<div align="center">
 
-# 🚀 CODERUNX: THE ENTERPRISE AI DEBUGGER
+# 🚀 CODERUNX
 
+**The Enterprise AI Debugger**
 
+![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/CODERUNX)
+![TypeScript](https://img.shields.io/badge/TypeScript-Primary-blue?logo=typescript)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/CODERUNX)
 
-**CODERUNX** is a cutting-edge, enterprise-grade AI-powered code debugger and execution environment. Built for developers who demand high productivity and zero downtime due to logical errors, CODERUNX leverages **Gemini 3 Pro** to perform autonomous self-correction loops on complex, multi-file software projects.
+<br>
 
-![CODERUNX Logo](favicon.svg)
+Built with the tools and technologies:
+
+![React](https://img.shields.io/badge/React-19-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Gemini 3 Pro](https://img.shields.io/badge/Gemini-3%20Pro-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![PrismJS](https://img.shields.io/badge/PrismJS-%23000000.svg?style=for-the-badge&logo=prism&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-React-%23000000.svg?style=for-the-badge&logo=lucide&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployment-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
 
 ---
 
-## 🌟 CORE INNOVATIONS
+## 🧠 Project Summary
+
+**CODERUNX** is a cutting-edge, enterprise-grade AI-powered debugger and execution environment designed for developers who demand maximum productivity and minimal downtime.
+
+Unlike traditional debuggers that only detect syntax errors, CODERUNX leverages **Gemini 3 Pro** to understand full project context, detect deep architectural flaws, and autonomously repair complex logical issues across multiple files.
+
+🔗 Live Application: https://coderunx.vercel.app/  
+🔗 Repository: https://github.com/Muhammad-Ahmed-Rayyan/CODERUNX
+
+---
+
+## 🌟 Core Innovations
 
 ### 🔍 Deep Neural Diagnostics
-Beyond simple syntax checking, CODERUNX uses advanced reasoning models to understand the *intent* of your code. It scans your entire workspace to identify:
-- **Architectural Logical Flaws**: Inconsistencies between different modules.
-- **Runtime Vulnerabilities**: Potential crashes or edge cases in your logic.
-- **Asynchronous Deadlocks**: Identifying race conditions in complex workflows.
 
-### 🔄 Autonomous Self-Healing Cycle
-The platform implements a "Repair-Verify-Deploy" loop:
-1.  **Analyze**: Gemini Pro consumes the error stack trace and the entire project context.
-2.  **Hypothesize**: The AI identifies the most likely cause of failure.
-3.  **Patch**: A precision code modification is generated.
-4.  **Simulate**: The new code is executed in an AI-powered sandbox.
-5.  **Verify**: If the simulation succeeds, the fix is applied permanently.
+- Detects architectural inconsistencies across modules  
+- Identifies runtime vulnerabilities and edge cases  
+- Recognizes asynchronous deadlocks and race conditions  
+- Understands intent, not just syntax  
+
+### 🔄 Autonomous Self-Healing Loop
+
+1. Analyze – Gemini Pro consumes stack traces and full workspace context  
+2. Hypothesize – AI determines root cause  
+3. Patch – Generates precise modifications  
+4. Simulate – Executes inside AI-powered sandbox  
+5. Verify – Applies fix only if validation succeeds  
 
 ### 🏗️ Advanced Multi-File Workspace
-- **Directory Ingestion**: Drag and drop entire project folders directly into the browser.
-- **Dynamic File Tree**: A robust navigator that mirrors your local development environment.
-- **Contextual Awareness**: The AI understands dependencies across multiple files simultaneously.
+
+- Drag-and-drop entire project folders  
+- Dynamic recursive file tree  
+- Cross-file contextual awareness  
+- Instant ZIP export for deployment  
 
 ### 🛡️ Polyglot AI Sandbox
-Execute code in an isolated, secure environment without local setup.
-- **Universal Runtime**: AI-simulated execution for Python, C++, JavaScript, TypeScript, and more.
-- **Live Terminal**: A real-time, scrolling console with distinct AI diagnostic tags and system logs.
+
+Supports execution for:
+
+- Python  
+- C++  
+- JavaScript  
+- TypeScript  
+- And more  
+
+Includes a live terminal console with structured AI diagnostic tagging.
 
 ---
 
-## 🛠️ TECHNICAL ARCHITECTURE
+## ⚙️ Technical Architecture
 
-- **Frontend Core**: [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- **Logic Engine**: [Google Gemini 3 Pro API](https://ai.google.dev/)
-- **UI Framework**: [Tailwind CSS](https://tailwindcss.com/)
-- **Iconography**: [Lucide React](https://lucide.dev/)
-- **Code Highlighting**: [PrismJS](https://prismjs.com/) with custom high-contrast themes.
-- **Project Packaging**: [JSZip](https://stuk.github.io/jszip/) for instantaneous archive generation.
-- **Typography**: [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (optimized for code readability).
+- Frontend Core: React 19 + TypeScript  
+- AI Logic Engine: Google Gemini 3 Pro API  
+- Styling: Tailwind CSS  
+- Code Highlighting: PrismJS  
+- Icons: Lucide React  
+- Project Packaging: JSZip  
+- Deployment: Vercel  
+- Typography: JetBrains Mono  
 
 ---
 
-## 🚀 GETTING STARTED
+## 🚀 Setup & Installation
 
-### Prerequisites
-- A modern web browser (Chrome, Edge, or Firefox recommended).
-- A valid **Gemini API Key** (managed via environment variables in production).
+```bash
+git clone https://github.com/Muhammad-Ahmed-Rayyan/CODERUNX.git
+cd CODERUNX
+npm install
+npm run dev
+```
 
-### Local Configuration
-Ensure your environment is set up with:
+---
+
+## 🔑 Environment Configuration
+
+Create a `.env` file:
+
 ```env
 API_KEY=your_gemini_pro_api_key
 ```
 
-### Application Structure
-- `App.tsx`: Central state management and AI loop orchestration.
-- `services/geminiService.ts`: Specialized API layer for high-thinking budget logic repairs.
-- `components/CodeEditor.tsx`: Advanced scroll-synced editor with PrismJS integration.
-- `components/FileTree.tsx`: Recursive tree component for multi-file navigation.
+Get your API key from: https://ai.google.dev/
 
 ---
 
-## 📖 WORKFLOW GUIDE
+## 📖 Workflow Guide
 
-1.  **Project Initialization**: Launch the debugger and populate your workspace using the "Plus" or "Upload" buttons.
-2.  **Define Context**: Use the "Environment Context" panel to provide the AI with specific goals or constraints (e.g., "Must run in a memory-constrained environment").
-3.  **Initiate Analysis**: Trigger "ANALYZE & FIX". CODERUNX will begin its repair cycles.
-4.  **Interactive Debugging**: Watch the "Mini Progress" panel to track the AI's current phase (Analysis -> Execution -> Repair -> Verification).
-5.  **Audit Patches**: Review changes in the code editor (changes are highlighted for immediate feedback).
-6.  **Deploy**: Export your stabilized project as a high-integrity ZIP archive.
-
----
-
-## 🤝 CONTRIBUTIONS & ROADMAP
-
-We are constantly evolving CODERUNX. Future enhancements include:
-- **Git Integration**: Direct push/pull from GitHub/GitLab.
-- **Real-time Collaboration**: Multi-user shared debugging sessions.
-- **Extended Language Support**: Native runtimes for Rust and Go.
-
-Feel free to open a PR or report issues on the [GitHub Repository](https://github.com/Muhammad-Ahmed-Rayyan/CoderunX).
+1. Initialize Workspace  
+2. Define Environment Context  
+3. Click Analyze & Fix  
+4. Monitor AI Repair Cycle  
+5. Review Highlighted Changes  
+6. Export Stabilized Project  
 
 ---
 
-## 📜 LEGAL & ATTRIBUTION
-Built with precision and passion by [Muhammad Ahmed Rayyan](https://github.com/Muhammad-Ahmed-Rayyan).
-© 2026 CODERUNX. All rights reserved. Licensed under the MIT License.
+## 🔮 Roadmap
+
+- GitHub Integration  
+- Real-time Collaboration  
+- Rust & Go Native Runtime Support  
+
+---
+
+<div align="center">
+
+⭐ If you like this project, don’t forget to star it!
+
+</div>
