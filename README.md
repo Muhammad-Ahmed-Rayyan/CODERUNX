@@ -31,8 +31,7 @@ Built with the tools and technologies:
 
 Unlike traditional debuggers that only detect syntax errors, CODERUNX leverages **Gemini 3 Pro** to understand full project context, detect deep architectural flaws, and autonomously repair complex logical issues across multiple files.
 
-🔗 Live Application: https://coderunx.vercel.app/  
-🔗 Repository: https://github.com/Muhammad-Ahmed-Rayyan/CODERUNX
+🔗 Live Application: [CODERUNX](https://coderunx.vercel.app/)
 
 ---
 
@@ -106,7 +105,7 @@ Create a `.env` file:
 API_KEY=your_gemini_pro_api_key
 ```
 
-Get your API key from: https://ai.google.dev/
+Get your API key from: [Google AI Studio](https://aistudio.google.com/)
 
 ---
 
