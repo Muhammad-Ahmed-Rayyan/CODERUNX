@@ -12,7 +12,7 @@
 <br>
  
 Built with the tools and technologies:
-
+ 
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Gemini 3 Pro](https://img.shields.io/badge/Gemini%203%20Pro-white.svg?style=for-the-badge&logo=google-gemini&logoColor=4285F4)
