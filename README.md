@@ -22,7 +22,7 @@ Built with the tools and technologies:
 ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
-
+ 
 ---
 
 ## 🧠 Project Summary
