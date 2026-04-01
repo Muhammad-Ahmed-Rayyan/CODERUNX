@@ -102,6 +102,42 @@ npm run dev
 
 ---
 
+## 📁 Project Structure
+
+```
+coderunx/
+├── components/
+│   ├── CodeEditor.tsx
+│   ├── CodeDiff.tsx
+│   ├── ExecutionConsole.tsx
+│   ├── FileTree.tsx
+│   ├── LandingPage.tsx
+│   ├── MiniProgress.tsx
+│   ├── ProgressSteps.tsx
+│   ├── ResultDisplay.tsx
+│   └── SetupLoader.tsx
+│
+├── services/
+│   ├── geminiService.ts
+│   └── sandbox.ts
+│
+├── index.html
+├── index.tsx
+├── App.tsx
+├── CODERUNX.png
+├── favicon.svg
+├── types.ts
+├── vite-env.d.ts
+├── tsconfig.json
+├── vite.config.ts
+├── metadata.json
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+---
+
 ## 🔑 Environment Configuration
 
 Create a `.env` file:
